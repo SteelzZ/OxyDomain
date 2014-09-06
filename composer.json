@@ -1,0 +1,15 @@
+{
+    "name": "steelzz/oxy-domain",
+    "description": "Library that provides base functionality for domain models based on DDD",
+    "authors": [
+        {
+            "name": "Tomas Bartkus",
+            "email": "to.bartkus@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0" : {
+            "Steelzz\\OxyDomain" : "src"
+        }
+    }
+}
