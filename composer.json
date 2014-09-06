@@ -9,7 +9,21 @@
     ],
     "autoload": {
         "psr-0" : {
-            "Steelzz\\OxyDomain" : "src"
+            "Oxy\\Domain" : "src"
         }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/steelzz/OxyCore"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/steelzz/OxyEventStore"
+        }
+    ],
+    "require": {
+        "steelzz/oxy-core": "dev-master",
+        "steelzz/oxy-event-store": "dev-master"
     }
 }
